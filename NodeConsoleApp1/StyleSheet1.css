@@ -1,0 +1,44 @@
+﻿body {
+    background-color: #6c68ff;
+    transition: background-color 2s
+}
+label {
+    font-family: 'Agency FB';
+    color: #0A0A19;
+    font-size: 23px
+}
+#addRandom {
+    background-color: #fbff68;
+    transition: margin-left 4s;
+}
+#backTrigger {
+    
+    padding: 15px 10px;
+    border-radius:100px;
+    font-family:'Global Sans Serif';
+    opacity:2;
+    
+}
+#questioner {
+    position: absolute;
+    right: 280px;
+    top: 85%;
+    transform: translateY(-50%);
+    display: none;
+    border-radius: 60px;
+    font-family: 'Global Sans Serif';
+    padding: 5px 8px;
+}
+   
+
+#reply {
+    font-size: 16px;
+    font-weight:500;
+}
+#selector {
+    width:50px;
+    position:relative;
+    top:130px;
+    left:650px;
+    
+}
