@@ -4,16 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <title>Random Messages</title>
+    <link rel="stylesheet" href="mainpagestyle.css"/>
 </head>
 <body>
-    <h1>Looking to generate random messages? You have come to the right place!</h1>
-    <label for="topic">Select a topic:</label>
-     <select name="topics" id="topics">
-           <option value="HTMLPage1.html">Gym</option>
-           <option value="school">School</option>
-           <option value="carDealership">Car Dealership</option>
-           <option value="officeWorkplace">Office Workplace</option>
-    </select>
+    <h1 id="maintitle">Looking to generate<br /> random messages?<br /> You have come<br /> to the right place!</h1>
+    <container id="topicSelection">
+        <label for="topic">Select a topic:</label>
+        <select name="topics" id="topics">
+            <option value="HTMLPage1.html">Gym</option>
+            <option value="school">School</option>
+            <option value="carDealership">Car Dealership</option>
+            <option value="officeWorkplace">Office Workplace</option>
+        </select>
+    </container>
     <script src="handleRedirect.js"></script>
 </body>
 </html>

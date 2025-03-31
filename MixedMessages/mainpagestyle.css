@@ -1,0 +1,17 @@
+﻿body {
+    background-color: #0a92bf
+}
+#maintitle {
+    position:relative;
+    left:100px;
+    top:130px;
+    color: white;
+    font-family:Dubai;
+    font-size:55px;
+    text-shadow: 4px 4px black
+}
+#topicSelection {
+    position: relative;
+    left: 820px;
+    font-size:43px
+}
